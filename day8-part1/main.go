@@ -9,7 +9,6 @@ import (
 )
 
 func main() {
-	//r := strings.NewReader(testStrings)
 	r := strings.NewReader(input)
 	s := bufio.NewScanner(r)
 
@@ -24,7 +23,6 @@ func main() {
 
 		l1 := len(t)
 		l2 := len(t2)
-		//fmt.Println(t, t2, l1, l2)
 		count += (l1 - l2)
 	}
 
